@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+    font-family: 'Roboto', sans-serif; ;
+    }
+      /** Header Start **/
+    
+    
+    .header{
+    width: 100%;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    background-color: #35424a;
+    border-bottom: 2px solid #d7219b;
+    
+    }
+      /*! -----Header left------ **/
+    
+    .header .header_left a{
+    text-decoration: none;
+    color: white;
+    
+    }
+    .header .header_left #ozelbaslık{
+    color: #d7219b;
+    }
+    
+    
+    /*! -----Header Right------ **/
+    
+    .header .header_right .menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 1.1rem;
+    }
+    
+
+    .main_banner_search{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        background-color: #35424a;
+        
+        
+        }
+        
+        .main_banner_search #baslık a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+         /*? SEARCH VE BUTTONA PADDİNG VERDİMİ ARALARI NDAKİ HİZALAMA BOZULUYOR  MARGİN VE PADDİNG VEREREK DÜZELTEMEDİM ???  */
+        padding: 8px;
+        }
+        
+        
+        
+        .main_banner_search #search{
+        padding: 5px;
+        }
+        
+        .main_banner_search #search input{
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+           
+        }
+        
+        .main_banner_search #search button{
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+        background-color: #e8491d;
+        color: white;
+        }
+        
+        .main_banner_search #search button:hover{
+        cursor: pointer;
+        background-color: chocolate;
+        color: #35424a;
+        }
+
+
+/*! -----main------ **/
+
+
+.main_icerik{
+display: flex;
+margin-top:20px ;
+
+}
+
+.main_icerik .conteiner  #bır{
+font-size: 15px;
+}
+
+.main_icerik .conteiner  #bır h3{
+    font-size: 25px;
+}
+
+.main_icerik .conteiner  #bır p{
+margin-top: 20px;
+}
+
+.main_icerik .conteiner #ıkı{
+margin-top: 20px;
+background-color:#35424a;
+color: white;
+
+}
+
+.main_icerik .conteiner  #ıkı p{
+    font-size: 15px;
+}
+
+.main_icerik .conteiner2 #uc{
+color: aliceblue;
+background-color:#35424a;
+margin-left: 20px;
+margin: 0px 40px;
+padding: 20px;
+}
+
+.main_icerik .conteiner2 #uc h3{
+margin-top: 20px;
+font-size: 25px;
+}
+
+.main_icerik .conteiner2 #uc p{
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+
+
+/*! -----footer------ **/
+.footer{
+    padding: 20px;
+    margin-top: 350px;
+    background-color: #35424a;
+    width: 100%;
+height: 100%;
+    text-align: center;
+ 
+    }
+    
+    .footer #p{
+    color: white;
+     
+    }
+    
+    .footer #logo{
+    margin-top: 10px;
+    }
+    

@@ -1,0 +1,211 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: 'Roboto', sans-serif; ;
+}
+  /** Header Start **/
+
+
+.header{
+width: 100%;
+display: flex;
+padding: 1.5rem;
+justify-content: space-between;
+font-size: 1.5rem;
+background-color: #35424a;
+border-bottom: 2px solid #d7219b;
+
+}
+  /*! -----Header left------ **/
+
+.header .header_left a{
+text-decoration: none;
+color: white;
+
+}
+.header .header_left #ozelbaslık{
+color: #d7219b;
+}
+
+
+/*! -----Header Right------ **/
+
+.header .header_right .menu a{
+text-decoration: none;
+color: white;
+padding: 10px;
+font-size: 1.1rem;
+}
+
+/*! -----Main Banner------ **/
+
+/* .main .banner{
+/* width: 40%; */
+
+
+
+
+
+.main .banner #banner{
+position: relative;
+
+/* height: 100%;
+height: 400px; */
+}
+
+/*! -----Main Banner img------ **/
+.main .banner #banner img{
+width: 100%;
+height: 400px;
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+}
+
+/*! -----Main Banner paragraf------ **/
+
+.main .banner #paragraf{
+height: 100%;
+height: 400px;
+color: white;
+opacity: 0.9;
+
+
+}
+
+.main .banner #paragraf h2{
+position: absolute;
+margin: 8rem 40rem;
+width: 50%;
+font-size: 40px;
+
+}
+
+.main .banner #paragraf p{
+position: absolute;
+margin: 12rem 15rem;
+width: 80%;
+}
+
+
+/*! -----Main Banner Searc and Button------ **/
+
+
+.main_banner_search{
+display: flex;
+justify-content: space-between;
+padding: 2rem;
+background-color: #35424a;
+
+
+}
+
+.main_banner_search #baslık a{
+color: white;
+text-decoration: none;
+font-size: 20px;
+ /*? SEARCH VE BUTTONA PADDİNG VERDİMİ ARALARI NDAKİ HİZALAMA BOZULUYOR  MARGİN VE PADDİNG VEREREK DÜZELTEMEDİM ???  */
+padding: 8px;
+}
+
+
+
+.main_banner_search #search{
+padding: 5px;
+}
+
+.main_banner_search #search input{
+padding: 8px;
+border-radius: 5px;
+border: none;
+   
+}
+
+.main_banner_search #search button{
+padding: 8px;
+border-radius: 5px;
+border: none;
+background-color: #e8491d;
+color: white;
+}
+
+.main_banner_search #search button:hover{
+cursor: pointer;
+background-color: chocolate;
+color: #35424a;
+}
+
+/*! -----Main HTML5 CSS3 GRAPHIC ------ **/
+
+.alan{
+display: flex;
+justify-content: space-around;
+text-align: center;
+margin-top: 20px;
+
+}
+
+/* .alan .html5{
+
+} */
+.alan .html5 img{
+width: 15%;
+}
+
+.alan .html5 p{
+font-size: 15px;
+margin-top: 10px;
+}
+
+
+/* .alan .css3{
+
+} */
+
+.alan .css3 img{
+width: 15%;
+} 
+
+
+.alan .css3 p{
+font-size: 15px;
+margin-top: 10px;
+}
+
+/* .alan .graphıc{
+ padding: 10px; 
+ margin-top: 10px;  */
+
+
+.alan .graphıc img{
+width: 15%;
+}
+
+.alan .graphıc p{
+font-size: 15px;
+margin-top: 10px;
+}
+
+/*! -----FOOTER------ **/
+
+.footer{
+padding: 30px;
+margin-top: 40px;
+background-color: #35424a;
+width: 100%;
+bottom: 0;
+text-align: center;
+}
+
+.footer #p{
+color: white;
+ 
+}
+
+.footer #logo{
+margin-top: 10px;
+}
